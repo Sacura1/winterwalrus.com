@@ -35,7 +35,7 @@ const Layout: FC<PropsWithChildren> = ({ children }) => {
     >
       <Header />
       {children}
-      <Footer display="flex" justifyContent="center" py="1.5rem">
+      <Footer display="flex" justifyContent="center" py="1rem">
         <Link target="_blank" href="https://t.co/1XNRy4vOZ0">
           <Div
             gap="0.5rem"
@@ -43,8 +43,48 @@ const Layout: FC<PropsWithChildren> = ({ children }) => {
             color="#FFFFFF80"
             alignItems="center"
             nHover={{ color: '#99EFE4' }}
+            margin="1rem"
           >
             <Span>Documentation</Span>
+            <ExternalLinkSVG maxWidth="1rem" width="100%" />
+          </Div>
+        </Link>
+        <Link target="_blank" href="https://t.co/1XNRy4vOZ0">
+          <Div
+            gap="0.5rem"
+            display="flex"
+            color="#FFFFFF80"
+            alignItems="center"
+            nHover={{ color: '#99EFE4' }}
+            margin="1rem"
+          >
+            <Span>X</Span>
+            <ExternalLinkSVG maxWidth="1rem" width="100%" />
+          </Div>
+        </Link>
+        <Link target="_blank" href="https://t.co/1XNRy4vOZ0">
+          <Div
+            gap="0.5rem"
+            display="flex"
+            color="#FFFFFF80"
+            alignItems="center"
+            nHover={{ color: '#99EFE4' }}
+            margin="1rem"
+          >
+            <Span>Github</Span>
+            <ExternalLinkSVG maxWidth="1rem" width="100%" />
+          </Div>
+        </Link>
+        <Link target="_blank" href="https://t.co/1XNRy4vOZ0">
+          <Div
+            gap="0.5rem"
+            display="flex"
+            color="#FFFFFF80"
+            alignItems="center"
+            nHover={{ color: '#99EFE4' }}
+            margin="1rem"
+          >
+            <Span>discord</Span>
             <ExternalLinkSVG maxWidth="1rem" width="100%" />
           </Div>
         </Link>
